@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "replacement": "[REDACTED]",
+    "custom_words": [
+        "password",
+        "api_key",
+        "secret",
+        "Shreyas",
+        "Shreyas C S",
+        "Shreyas C.S.",
+        "mysecret",
+        "mysecret123",
+        "prateek"
+    ],
+    "detectors": {
+        "jwt": true,
+        "api_keys": true,
+        "email": true,
+        "phone": false,
+        "ipv4": false
+    }
+}
